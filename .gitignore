@@ -15,4 +15,7 @@
 
 # Ignore Byebug command history file.
 .byebug_history
-/node_modules
+node_modules
+typings
+public/js/*
+public/index.html
