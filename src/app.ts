@@ -1,5 +1,6 @@
-import greeter from './greeter';
+import 'angular';
+import Greeter from './greeter';
 
-$(() => {
-  $(document.body).html(greeter("World"));
-});
+angular.module("app", [])
+    .directive("greeter", Greeter);
+angular.bootstrap(document, ["app"]);

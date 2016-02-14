@@ -1,3 +1,3 @@
-Rails: rails server -p $PORT
-WebPack: npm start
-Guard: guard
+rails: rails server -p $PORT
+webpack: npm start
+guard: bundle exec guard -i

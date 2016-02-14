@@ -1,7 +1,6 @@
-let myTemplate = require('./template.html');
-
-function greet(name: string) {
-  return 'Hello ' + name + myTemplate;
+export default function Greeter(): ng.IDirective {
+    return {
+        restrict: 'EA',
+        template: require('./template.html')
+    }
 }
-
-export default greet;
