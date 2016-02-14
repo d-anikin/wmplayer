@@ -17,5 +17,6 @@
 .byebug_history
 node_modules
 typings
-public/js/*
-public/index.html
+/public/js/*
+/public/index.html
+/config/secrets.yml
