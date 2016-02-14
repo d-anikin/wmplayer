@@ -35,8 +35,13 @@ group :development do
   gem 'annotate'
   gem 'guard-rspec', require: false
   gem 'guard-migrate', require: false
+  gem 'guard-annotate', require: false
   gem 'guard-bundler', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'omniauth-vkontakte'
+gem 'faraday'
+gem 'vkontakte_api'

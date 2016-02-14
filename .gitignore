@@ -20,3 +20,4 @@ typings
 /public/js/*
 /public/index.html
 /config/secrets.yml
+.idea
