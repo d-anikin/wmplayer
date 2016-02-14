@@ -22,6 +22,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0.0'
   gem 'factory_girl_rails'
+  gem 'faker'
   gem 'database_cleaner'
 end
 
@@ -34,6 +35,7 @@ group :development do
   gem 'annotate'
   gem 'guard-rspec', require: false
   gem 'guard-migrate', require: false
+  gem 'guard-bundler', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
