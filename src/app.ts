@@ -1,6 +1,6 @@
 import 'angular';
-import Greeter from './greeter';
+import { Greeter } from './greeter/index';
 
 angular.module("app", [])
-    .directive("greeter", Greeter);
+    .component("greeter", new Greeter());
 angular.bootstrap(document, ["app"]);
