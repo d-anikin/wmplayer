@@ -20,4 +20,5 @@ typings
 /public/js/*
 /public/index.html
 /config/secrets.yml
+/reports/*
 .idea
