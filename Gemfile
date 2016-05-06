@@ -45,3 +45,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'omniauth-vkontakte'
 gem 'faraday'
 gem 'vkontakte_api'
+gem 'daemons'
+gem 'audite'
